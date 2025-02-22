@@ -23,7 +23,7 @@ A banking system simulation demonstrating thread operations, synchronization, de
    - Resource ordering implementation
 
 ### Code Structure
-
+```
 /multi_threading
 ├── basic_multi_threading.c # Shows multi threading creation and account balance updation
 ├── basic_multi_threading # exicutable of basic_multi_threading.c
@@ -33,7 +33,7 @@ A banking system simulation demonstrating thread operations, synchronization, de
 ├── deadlock_creation # exicutable of deadlock_creation.c
 ├── deadlock_preventation.c # Deadlock resolution using resource ordering
 └── deadlock_preventation # exicutable of deadlock_preventation.c
-
+```
 
 ### Build & Run
 run these executables one by one to correctly understand the output.
@@ -67,13 +67,14 @@ Demonstartes process communication through:
 
 ### Code Structure
 
+```
 /IPC
 ├── consumer.c # Reads from stdin
 ├── producer.c # Writes to stdout
 ├── count_txt_files.sh # Count the number of txt files in the dir
 ├── file.txt # A txt file
 └── file2.txt # A txt file
-
+```
 
 ### Build & Run
 ```bash
